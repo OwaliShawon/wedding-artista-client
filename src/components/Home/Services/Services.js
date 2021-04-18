@@ -1,21 +1,21 @@
 import React from 'react';
-import fluoride from '../../../images/fluride.png'
-import cavity from '../../../images/cavity.png'
-import whitining from '../../../images/white.png'
+import wedding from '../../../images/wedding.jpg'
+import birthday from '../../../images/birthday.jpg'
+import corporate from '../../../images/corporate.jpg'
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
 
 const serviceData = [
     {
-        name: 'Wedding',
-        img: fluoride
+        name: 'Wedding Photography',
+        img: wedding
     },
     {
         name: 'Birthday Party',
-        img: cavity
+        img: birthday
     },
     {
-        name: 'Corporate',
-        img: whitining
+        name: 'Corporate Photography',
+        img: corporate
     }
 ]
 
