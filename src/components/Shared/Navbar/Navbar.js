@@ -13,13 +13,16 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse bg-primary p-3" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
+                                <a class="nav-link ms-5  text-white" href="/login">Login</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link ms-5 active text-white" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ms-5 text-white" href="#">About</a>
+                                <a class="nav-link ms-5 text-white" href="/dashboard">Dashboard</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ms-5 text-white" href="#">Dental Services</a>
+                                <a class="nav-link ms-5 text-white" href="#">Service Packages</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link ms-5 text-white" href="#">Reviews</a>
@@ -28,8 +31,12 @@ const Navbar = () => {
                                 <a class="nav-link ms-5  text-white" href="#">Blogs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ms-5 text-white" href="#">Contact Us</a>
+                                <a class="nav-link ms-5  text-white" href="#">Photos</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-5  text-white" href="#">Videos</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

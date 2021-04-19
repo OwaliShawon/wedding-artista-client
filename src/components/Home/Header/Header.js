@@ -4,10 +4,10 @@ import SlideShow from '../SlideShow/SlideShow';
 
 const Header = () => {
     return (
-        <div>
+        <main>
             <Navbar></Navbar>
             <SlideShow></SlideShow>
-        </div>
+        </main>
     );
 };
 
