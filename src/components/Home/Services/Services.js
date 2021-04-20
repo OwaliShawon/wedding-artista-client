@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import wedding from '../../../images/wedding.jpg'
 import birthday from '../../../images/birthday.jpg'
 import corporate from '../../../images/corporate.jpg'
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
+import { UserContext } from '../../../App';
 
 // const serviceData = [
 //     {
@@ -21,6 +22,7 @@ import ServiceDetail from '../ServiceDetail/ServiceDetail';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
         fetch('http://localhost:5005/services')
@@ -28,8 +30,8 @@ const Services = () => {
             .then(data => {
                 setServices(data)
             })
-
     }, [])
+
     return (
         <section className="services-container mt-5">
             <div className="text-center">

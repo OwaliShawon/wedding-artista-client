@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AddService from '../AddService/AddService';
 
 const Dashboard = () => {
     return (
@@ -11,6 +12,11 @@ const Dashboard = () => {
                 <Link to='/manageService'>Manage Service</Link>
             </div>
 
+            <hr />
+
+            <div className='App'>
+                <Link to='/orders'>Orders Booked</Link>
+            </div>
         </div>
     );
 };
